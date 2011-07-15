@@ -1,6 +1,21 @@
+INFO
+----
 This is a copy of original Color Sampler Pack from vim.org website:
 http://www.vim.org/scripts/script.php?script_id=625
 
-I created it so that it can be fetched with Vundle :)
+I created it so that it can be used conveniently with Vundle :)
 
-Visit the script page for standard installation instructions.
+INSTALL
+-------
+1. Add following line to your .vimrc:
+Bundle 'bzx/vim-theme-pack'
+
+2. Run this command:
+:BundleInstall
+
+..and you should be all set!
+
+PROBLEMS?
+---------
+Visit gmarik plugin page for more info on Vundle:
+https://github.com/gmarik/vundle
