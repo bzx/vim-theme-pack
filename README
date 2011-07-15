@@ -25,7 +25,7 @@ Bundle 'bzx/vim-theme-pack'
 
 MORE INFO
 ---------
-Please note that the original Color Sampler Pack from vim.org is also included in the Janus plugin for vim (https://github.com/carlhuda/janus). I found Janus package to have too many plugins installed and wanted to create a nice and clean installation of the only stuff I need. Vundle allows to do such things in a very simple way.
+Please note that the original Color Sampler Pack from vim.org is also included in the Janus plugin for vim (https://github.com/carlhuda/janus). I found Janus package to have too many plugins installed and wanted to create a nice and clean installation of the stuff I need. Vundle allows to do such things in a very simple way.
 
 I am using MacVim 7.3 (53).
 
