@@ -3,10 +3,17 @@ INFO
 This is a copy of original Color Sampler Pack from vim.org website:
 http://www.vim.org/scripts/script.php?script_id=625
 
-I created it so that it can be used conveniently with Vundle :)
+I created github version so that it can be used conveniently with Vundle :)
 
-INSTALL
--------
+
+PREREQUISITES
+-------------
+You need to have Vundle plugin installed:
+https://github.com/gmarik/vundle
+
+
+INSTALL VIM-THEME-PACK
+----------------------
 1. Add following line to your .vimrc:
 Bundle 'bzx/vim-theme-pack'
 
@@ -15,7 +22,25 @@ Bundle 'bzx/vim-theme-pack'
 
 ..and you should be all set!
 
-PROBLEMS?
+
+MORE INFO
 ---------
-Visit gmarik plugin page for more info on Vundle:
-https://github.com/gmarik/vundle
+Please note that the original Color Sampler Pack from vim.org is also included in the Janus plugin for vim (https://github.com/carlhuda/janus). I found Janus package to have too many plugins installed and wanted to create a nice and clean installation of the only stuff I need. Vundle allows to do such things in a very simple way.
+
+I am using MacVim 7.3 (53).
+
+Here's the excerpt from my .vimrc showing what plugins I use:
+
+Bundle 'wycats/nerdtree'
+Bundle 'msanders/snipmate.vim'
+Bundle 'ervandew/supertab'
+Bundle 'scrooloose/syntastic'
+Bundle 'altercation/vim-colors-solarized'
+Bundle 'pangloss/vim-javascript'
+Bundle 'tpope/vim-surround'
+Bundle 'bzx/vim-theme-pack'
+Bundle 'guns/Command-T'
+Bundle 'sukima/xmledit'
+Bundle 'vim-scripts/bufkill.vim'
+
+(I will probably give up on NERDtree in favor of Command-T).
